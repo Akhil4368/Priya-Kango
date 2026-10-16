@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160512">
+  <title>Happy Birthday, My Love ❤️</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="reading-progress" id="readingProgress"></div>
+  <div class="ambient-glow" aria-hidden="true"></div>
+  <button class="music-btn" id="musicButton" aria-label="Play or pause music">🎵</button>
+  <audio id="backgroundMusic" loop autoplay preload="auto">
+    <source src="audio/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <nav class="quick-nav" aria-label="Birthday sections">
+    <a href="#memories" aria-label="Memories">📸</a>
+    <a href="#love-box" aria-label="Love Box">🎁</a>
+    <a href="#memories" aria-label="Photos">📸</a>
+    <a href="#reasons" aria-label="Reasons">💗</a>
+    <a href="#letter" aria-label="Letter">💌</a>
+  </nav>
+
+  <main>
+    <section class="screen intro" id="intro">
+      <div class="heart-pulse">❤️</div>
+      <p class="eyebrow">A little surprise, just for you</p>
+      <h1>Hey, <span class="accent">Beautiful</span>...</h1>
+      <p class="intro-copy">I made something special for you. Take a little journey through our memories. 💌</p>
+      <button class="primary-btn" id="startButton">Open your surprise ✨</button>
+    </section>
+
+    <section class="section cake-section" id="birthday-cake">
+      <p class="eyebrow">Make a birthday wish, my love ✨</p>
+      <h2>Your Birthday <span class="accent">Cake</span> 🎂</h2>
+      <p class="section-note">Tap each candle to blow it out, baby. When all the candles are out, your birthday surprise will begin! 💗</p>
+      <div class="cake-stage" id="cakeStage">
+        <div class="cake-candles" aria-label="Tap each candle to blow it out">
+          <button class="cake-candle" type="button" aria-label="Blow out candle 1"><span class="flame"></span><span class="wick"></span></button>
+          <button class="cake-candle" type="button" aria-label="Blow out candle 2"><span class="flame"></span><span class="wick"></span></button>
+          <button class="cake-candle" type="button" aria-label="Blow out candle 3"><span class="flame"></span><span class="wick"></span></button>
+          <button class="cake-candle" type="button" aria-label="Blow out candle 4"><span class="flame"></span><span class="wick"></span></button>
+          <button class="cake-candle" type="button" aria-label="Blow out candle 5"><span class="flame"></span><span class="wick"></span></button>
+        </div>
+        <div class="cake-top"><span>♡</span><span>♡</span><span>♡</span></div>
+        <div class="cake-layer cake-layer-one"></div>
+        <div class="cake-layer cake-layer-two"></div>
+        <div class="cake-plate"></div>
+      </div>
+      <p class="candles-counter" id="candlesCounter" aria-live="polite">5 candles glowing — tap them one by one 🕯️</p>
+      <p class="cake-wish hidden" id="cakeWish">Close your eyes, make your sweetest wish, and get ready… 💕</p>
+      <button class="primary-btn cake-open-surprise" id="cakeOpenSurprise" type="button">Open your surprise ✨</button>
+    </section>
+
+    <section class="screen hero" id="hero">
+      <div class="hero-shade"></div>
+<div class="hero-content">
+        <p class="eyebrow">Today is all about you</p>
+        <h2>Happy Birthday,<br><span class="accent">My Love ❤️</span></h2>
+        <p>You make my world a little more beautiful.</p>
+      </div>
+      <a class="scroll-cue" href="#memories">Scroll for your surprise ↓</a>
+    </section>
+
+    <section class="section" id="memories">
+      <p class="eyebrow">Little moments, forever memories</p>
+      <h2>Our Memories <span class="accent">📸</span></h2>
+      <div class="gallery">
+        <figure class="photo-card"><img src="photos/photo1.jpg" alt="A beautiful mountain memory"><figcaption>Some views are beautiful, but you make them unforgettable ❤️</figcaption></figure>
+        <figure class="photo-card"><img src="photos/photo2.jpg" alt="A peaceful moment by the waterfall"><figcaption>Your smile makes every place feel special 🥹</figcaption></figure>
+        <figure class="photo-card"><img src="photos/photo3.jpg" alt="A sunny day in the mountains"><figcaption>One more little adventure I'd love to remember 🌿</figcaption></figure>
+        <figure class="photo-card"><img src="photos/photo4.jpg" alt="A happy moment together in the mountains"><figcaption>My favourite memories are the ones we share 🫶</figcaption></figure>
+        <figure class="photo-card"><img src="photos/photo5.jpg" alt="A birthday celebration"><figcaption>Celebrating you will always be special 🎂</figcaption></figure>
+        <figure class="photo-card"><img src="photos/photo6.jpg" alt="A sweet memory together"><figcaption>Little moments that mean so much to me 💗</figcaption></figure>
+        <figure class="photo-card"><img src="photos/photo7.jpg" alt="A favourite photo of you"><figcaption>There is something lovely about ordinary days with you ✨</figcaption></figure>
+        <figure class="photo-card"><img src="photos/photo8.jpg" alt="A playful selfie together"><figcaption>Our silly little moments are memories too 🥰</figcaption></figure>
+        <figure class="photo-card"><img src="photos/photo9.jpg" alt="A black and white selfie together"><figcaption>Through every mood and every season, I treasure our memories 🤍</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section story" id="story">
+      <p class="eyebrow">Every love has a story</p>
+      <h2>Our Little <span class="accent">Story</span> 🫶</h2>
+      <div class="timeline">
+        <article class="timeline-item"><span>❤️</span><div><h3>The Beginning</h3><p>Somewhere between ordinary days, I met someone who slowly became very special to me.</p></div></article>
+        <article class="timeline-item"><span>📸</span><div><h3>Our Memories</h3><p>Every picture, conversation, and laugh became a memory I never want to forget.</p></div></article>
+        <article class="timeline-item"><span>💕</span><div><h3>You Became Special</h3><p>Without even realizing it, you became one of the most important people in my life.</p></div></article>
+        <article class="timeline-item"><span>🎂</span><div><h3>Today</h3><p>Today is the day the world got you. I'm so happy I get to celebrate you.</p></div></article>
+      </div>
+    </section>
+
+
+    <section class="section mini-surprises" id="little-things">
+      <p class="eyebrow">A few tiny things, just for you</p>
+      <h2>Open When You <span class="accent">Need a Smile</span> 💗</h2>
+      <p class="section-note">Choose a little note. Each one is just for you.</p>
+      <div class="note-grid">
+        <button class="note-card" data-note="Whenever you feel low, remember that someone out here is always wishing for your happiness. You deserve all the softness and joy in the world. ❤️">
+          <span>🌧️</span><strong>When you feel low</strong><small>Tap to open</small>
+        </button>
+        <button class="note-card" data-note="If you could see yourself through my eyes, you'd understand why your smile is one of my favorite things in this world. Keep shining, beautiful. ✨">
+          <span>😊</span><strong>When you need a smile</strong><small>Tap to open</small>
+        </button>
+        <button class="note-card" data-note="Take a deep breath. You don't have to figure everything out today. I'm proud of you and I'm always cheering for you. 🫶">
+          <span>🌷</span><strong>When life feels hard</strong><small>Tap to open</small>
+        </button>
+        <button class="note-card" data-note="This is your reminder that you are loved, appreciated, and so very special. Sending you the biggest hug. 💌">
+          <span>💌</span><strong>When you miss me</strong><small>Tap to open</small>
+        </button>
+      </div>
+      <div class="note-reveal hidden" id="noteReveal">
+        <button class="note-close" id="noteClose" aria-label="Close note">×</button>
+        <p id="noteText"></p>
+      </div>
+    </section>
+
+
+    <section class="section love-box-section" id="love-box">
+      <p class="eyebrow">A little box full of my heart</p>
+      <h2>Your Secret <span class="accent">Love Box</span> 🎀</h2>
+      <p class="section-note">Tap the box to open a little reminder of how loved you are.</p>
+      <button class="love-box" id="loveBoxButton" aria-expanded="false">🎁<span>Tap to open</span></button>
+      <div class="love-box-message hidden" id="loveBoxMessage">
+<h3>For my favorite girl ❤️</h3>
+        <p>If I could wrap up every hug, every laugh, every beautiful memory, and every little reason I love you, I would put them all in this box for you.</p>
+        <p>Whenever you have a difficult day, remember: you matter, your feelings matter, and you deserve gentleness, happiness, and love—not just today, but every day.</p>
+        <p class="signature">A thousand hugs, just for you. 💗</p>
+      </div>
+    </section>
+
+    <section class="section virtual-hug-section" id="virtual-hug">
+      <p class="eyebrow">A little hug, whenever you need one 🫂</p>
+      <h2>Come Here, <span class="accent">My Love</span> 💗</h2>
+      <p class="section-note">Tap the heart and imagine me wrapping you in the warmest hug.</p>
+      <button class="hug-button" id="hugButton" aria-expanded="false" aria-controls="hugMessage">
+        <span class="hug-orbit">♡</span><span class="hug-heart">💖</span><span class="hug-button-label">Tap to get your hug</span>
+      </button>
+      <div class="hug-message hidden" id="hugMessage" aria-live="polite">
+<div class="hug-arms">🤗</div>
+        <h3>You're wrapped in my love, ️</h3>
+        <p>Close your eyes for a second, take a deep breath, and imagine me holding you close. No worries, no distance—just a warm hug and a little reminder that you are precious to me.</p>
+        <p class="signature">Sending you the biggest, softest, never-ending virtual hug. 💞</p>
+      </div>
+    </section>
+
+    <section class="section promise-section" id="little-promise">
+      <p class="eyebrow">Just between you and me 💌</p>
+      <h2>Our Little <span class="accent">Promise</span> 🤞</h2>
+      <p class="section-note">Tap the heart to uncover a little promise made just for you.</p>
+      <button class="promise-heart" id="promiseButton" aria-expanded="false" aria-controls="promiseMessage">💗<span>Tap for my promise</span></button>
+      <div class="promise-message hidden" id="promiseMessage">
+<h3>My promise to you, ️</h3>
+        <p>I promise to keep choosing kindness, to listen when you need to be heard, to celebrate your wins, and to stand beside you through the ordinary days too.</p>
+        <p>I can't promise every day will be perfect, but I can promise to keep showing up with honesty, care, patience, and a heart that wants to make you smile.</p>
+        <p class="signature">You deserve to feel cherished—today and always. 💞</p>
+      </div>
+    </section>
+
+
+    <section class="section memory-jar-section" id="memory-jar">
+      <p class="eyebrow">A tiny jar full of love ✨</p>
+      <h2>Pick a <span class="accent">Little Heart</span> 💗</h2>
+      <p class="section-note">Tap a heart to open a tiny surprise made just for you.</p>
+      <div class="memory-heart-grid">
+        <button class="memory-heart" data-memory="Your smile has a way of making an ordinary day feel like something beautiful. 😊">💗<span>A smile</span></button>
+        <button class="memory-heart" data-memory="If I could pause one moment, it would be a happy moment with you—just us, laughing without a care. 🥹">💖<span>A memory</span></button>
+        <button class="memory-heart" data-memory="You deserve flowers, kindness, patience, peaceful days, and love that feels safe and true. 🌷">🌸<span>A wish</span></button>
+        <button class="memory-heart" data-memory="Sending you a forehead kiss, a hand to hold, and the biggest cuddle—whenever you need it. 🫂">💕<span>A cuddle</span></button>
+      </div>
+      <div class="memory-jar-reveal hidden" id="memoryJarReveal" aria-live="polite"><p id="memoryJarText"></p></div>
+    </section>
+
+    <section class="section date-night-section" id="date-night">
+      <p class="eyebrow">Our next little adventure 🌙</p>
+      <h2>Choose Our <span class="accent">Dream Date</span> 💞</h2>
+      <p class="section-note">Choose exactly 3 things you want to do on your birthday. Make your own dream day, baby! 💕</p>
+      <p class="date-pick-counter" id="datePickCounter" aria-live="polite">0 / 3 selected</p>
+      <div class="date-choice-grid">
+        <button class="date-choice" data-date="A cozy movie night, snacks, blankets, and your hand in mine. 🍿">🍿<strong>Movie night</strong></button>
+        <button class="date-choice" data-date="A sunset walk, pretty skies, and a thousand little things to talk about. 🌅">🌅<strong>Sunset walk</strong></button>
+        <button class="date-choice" data-date="A cute café date, your favorite treat, and me stealing little smiles from you. ☕">☕<strong>Café date</strong></button>
+        <button class="date-choice" data-date="A surprise day out, just us making a memory we’ll talk about for years. 🎡">🎡<strong>Surprise outing</strong></button>
+        <button class="date-choice" data-date="A long drive with our favorite songs, open roads, sunset views, and your hand in mine. 🚗❤️">🚗<strong>Long drive</strong></button>
+        <button class="date-choice" data-date="A cute picnic with yummy snacks, flowers, photos, and lots of cuddles. 🧺🌷">🧺<strong>Romantic picnic</strong></button>
+        <button class="date-choice" data-date="A birthday dinner, dressed up together, candlelight, delicious food, and a little celebration just for you. 🕯️🍰">🕯️<strong>Birthday dinner</strong></button>
+        <button class="date-choice" data-date="A fun arcade or bowling date—playful competition, silly pictures, and lots of laughing. 🎳🎮">🎳<strong>Games & fun</strong></button>
+        <button class="date-choice" data-date="Go-karting together, racing around the track, cheering each other on, and laughing about who won. 🏎️🏁">🏎️<strong>Go-karting</strong></button>
+        <button class="date-choice" data-date="A peaceful day at home with face masks, your favorite snacks, a movie, and all my attention. 🧖‍♀️🍿">🧖‍♀️<strong>Cozy day in</strong></button>
+        <button class="date-choice" data-date="A little shopping date where you choose something you love, followed by your favorite dessert. 🛍️🍨">🛍️<strong>Shopping & dessert</strong></button>
+      </div>
+      <p class="date-choice-hint">Tap any 3 choices. You can change your mind until you confirm your birthday plan.</p>
+      <button class="confirm-date-plan" id="confirmDatePlan" disabled>Confirm my 3 birthday wishes 💖</button>
+      <div class="date-choice-result hidden" id="dateChoiceResult" aria-live="polite"></div>
+    </section>
+<section class="section reasons" id="reasons">
+      <p class="eyebrow">22 little reasons you're so special to me</p>
+      <h2>22 Reasons I <span class="accent">Love You</span> ❤️</h2>
+      <p class="section-note">Tap each card to reveal a reason.</p>
+      <div class="reasons-grid" id="reasonsGrid"></div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <p class="eyebrow">A few words from my heart</p>
+      <h2>A Letter <span class="accent">For You</span> 💌</h2>
+      <article class="letter">
+        <p>My Love, ❤️</p>
+        <p>Happy Birthday to one of the most beautiful people in my world.</p>
+        <p>I don't know if words will ever be enough to explain what you mean to me, but I want you to know that every moment with you is something I genuinely treasure.</p>
+        <p>Your smile, your little habits, your laugh, and your presence have become such a beautiful part of my life.</p>
+        <p>On your birthday, I hope this new year brings you happiness, peace, love, and everything your heart wishes for.</p>
+        <p>Happy Birthday once again, beautiful. I hope I get to celebrate many more birthdays with you. ❤️</p>
+        <p class="signature">Always yours ❤️</p>
+      </article>
+    </section>
+
+
+    <section class="section secret-heart-section" id="secret-heart">
+      <p class="eyebrow">Psst... something from my heart 🤫</p>
+      <h2>A Little <span class="accent">Secret</span> 💌</h2>
+      <p class="section-note">There's something I wanted to tell you quietly. Open it when you're ready. 💗</p>
+      <button class="primary-btn secret-heart-button" id="secretHeartButton" type="button" aria-expanded="false" aria-controls="secretHeartMessage">Open your little secret 🤫💗</button>
+      <article class="secret-heart-message hidden" id="secretHeartMessage" aria-live="polite">
+        <div class="secret-heart-glow" aria-hidden="true">💗 ✨ 💖</div>
+        <p>Sunno, mujhe pata hai ki shayad hum hamesha ke liye ek dusre ke saath rehne ke liye nahi bane hain. Kabhi-kabhi mujhe feel hota hai ki shayad tum ab humare relationship ko khatam karna chahti ho. 🥺</p>
+        <p>Lekin mera dil bas itna chahta hai ki jab tak hum saath hain, tab tak tumhare saath kuch khoobsurat pal jee loon. Tumhare saath thoda aur has loon, tumhari baatein sun loon, tumhe dekh loon aur aisi memories bana loon jinhe baad mein yaad karke mere face par smile aa jaaye. ❤️</p>
+        <p><strong>Tumhare saath bitaya hua har pal mujhe kam lagta hai.</strong> Ghanton baat kar loon, phir bhi lagta hai kaash thodi der aur baat ho jaati. Tumhare saath poora din bita loon, phir bhi lagta hai din kitni jaldi khatam ho gaya.</p>
+        <p>Mujhe nahi pata humara future kya hai, lekin jab tum mere saath hoti ho na, toh sab kuch thoda achha lagne lagta hai. Main bas apne aaj mein tumhare saath thoda sa sukoon dhoondhna chahta hoon.</p>
+        <p>Kabhi-kabhi darr lagta hai ki ek din yeh sab sirf memories bankar reh jaayega—tumhari awaaz, tumhari hasi, tumhari baatein aur woh chhoti-chhoti moments. Isiliye main tumhare saath bitaye har pal ko thoda aur jeena chahta hoon.</p>
+        <p>Main nahi chahta ki tum sirf meri khushi ke liye mere saath raho. Tumhari feelings aur tumhari happiness bhi mere liye important hain. Main tumhe force nahi karna chahta. Bas agar tumhare dil mein abhi bhi humare liye thodi si jagah hai, toh main chahta hoon ki hum saath mein bache hue waqt ko achhe se jeeyein. 🫶</p>
+        <p><strong>Mujhe tumse poori zindagi ka promise nahi chahiye, mujhe bas tumhare saath bitaye hue in palon mein thodi si aur zindagi chahiye.</strong> ❤️</p>
+        <p>Agar ek din humein alag hona bhi pada, toh main chahta hoon ki humare paas ek dusre ke liye sirf complaints nahi, balki khoobsurat memories bhi hon. Aisi memories jinhe yaad karke hum keh sakein ki humne ek waqt par ek dusre ko dil se khush kiya tha.</p>
+        <p>Mujhe nahi pata kismat ne humare liye kya likha hai. Bas aaj jab tum mere saath ho, main is aaj ko dil se jeena chahta hoon.</p>
+        <p class="secret-heart-ending">Tumhare saath kitna bhi waqt bita loon, dil hamesha kehta hai—<em>kaash thoda sa aur waqt tumhare saath mil jaaye.</em> 🥹❤️</p>
+      </article>
+    </section>
+
+    <section class="screen final" id="gift">
+      <div id="giftPrompt">
+        <button class="gift-box" id="giftButton" aria-label="Open final gift">🎁</button>
+        <h2>One Last Surprise...</h2>
+        <p>Tap the gift, birthday girl ❤️</p>
+      </div>
+      <div class="final-message hidden" id="finalMessage">
+<p class="eyebrow">From my heart to yours</p>
+        <h2>I Love You <span class="accent">❤️</span></h2>
+        <p>Happy Birthday, my beautiful girl. Thank you for being a special part of my life.</p>
+        <p>May your smile always stay this beautiful. 🎂</p>
+        <button class="primary-btn final-hug-button" id="finalHugButton">Tap for one last hug 🤗</button>
+        <div class="final-hug-reveal hidden" id="finalHugReveal" aria-live="polite">
+          <div class="hug-sky" aria-hidden="true"><span>💖</span><span>✨</span><span>💕</span><span>🌸</span><span>💗</span></div>
+          <div class="big-hug-heart">🫂</div>
+          <p class="final-hug-title">Come here, birthday girl…</p>
+          <p class="final-hug-copy">Imagine I’m pulling you into the warmest hug, kissing your forehead, and whispering: “You are my favourite person, my sweetest blessing, and the girl I want to make smile again and again. I wish I could be beside you right now. Until I can, here’s a thousand hugs and all my love.”</p>
+          <p class="final-hug-signature">Forever sending you all my love ❤️</p>
+          <button class="primary-btn" id="hugAgainButton">One more hug? 💞</button>
+        </div>
+        <div class="emoji-line">🎂 💕 🎉 🥰 ❤️</div>
+        <video class="final-video" id="finalVideo" controls playsinline preload="metadata">
+          <source src="videos/final-surprise.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox hidden" id="photoLightbox" role="dialog" aria-modal="true" aria-label="Photo preview">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous photo">‹</button>
+    <img id="lightboxImage" src="" alt="Expanded memory">
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next photo">›</button>
+    <p id="lightboxCaption"></p>
+  </div>
+  
+
+  <button class="secret-corner-button" id="secretCornerButton" type="button" aria-label="Go to the secret message">
+    💌 <span>A Little Secret</span>
+  </button>
+
+  <div class="love-flash" id="loveFlash" aria-hidden="true"><span>💖</span><span>✨</span><span>💗</span></div>
+  <script src="js/script.js"></script>
+
+  <script>
+    (() => {
+      const secretButton = document.getElementById('secretHeartButton');
+      const secretMessage = document.getElementById('secretHeartMessage');
+
+      const cornerButton = document.getElementById('secretCornerButton');
+      const secretSection = document.getElementById('secret-heart');
+      if (cornerButton && secretSection) {
+        cornerButton.addEventListener('click', () => {
+          secretSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          cornerButton.classList.add('secret-corner-tapped');
+          window.setTimeout(() => cornerButton.classList.remove('secret-corner-tapped'), 650);
+        });
+      }
+
+      if (!secretButton || !secretMessage) return;
+      secretButton.addEventListener('click', () => {
+        const opening = secretMessage.classList.contains('hidden');
+        secretMessage.classList.toggle('hidden', !opening);
+        secretButton.setAttribute('aria-expanded', String(opening));
+        secretButton.textContent = opening ? 'My heart, just for you 💗' : 'Keep this secret tucked away 🤫';
+        if (opening) {
+          secretMessage.classList.remove('secret-heart-pop');
+          void secretMessage.offsetWidth;
+          secretMessage.classList.add('secret-heart-pop');
+          secretMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>
